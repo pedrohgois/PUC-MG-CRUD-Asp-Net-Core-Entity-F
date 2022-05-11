@@ -13,6 +13,7 @@ namespace app_web_backend.Models
         [Required(ErrorMessage = "Obrigatório  informar o nome!")]
         public string Nome { get; set; }
 
+        [DataType(DataType.Password)]
         [Required(ErrorMessage = "Obrigatório  informar a senha!")]
         public string Senha { get; set; }
 
